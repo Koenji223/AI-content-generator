@@ -1,0 +1,10 @@
+{
+  "caption": "Swipe past the endless scrolling, ditch the snooze button, and stop letting emails hijack your morning! 🚫📱 Keep those first few hours sacred for calm, focus, and good energy. Protect your AM peace and watch your whole day transform. ☀️☕️✨",
+  "hashtags": [
+    "#MorningRoutine",
+    "#StopTheScroll",
+    "#ProductiveMorning",
+    "#MindfulHabits",
+    "#WinYourDay"
+  ]
+}
