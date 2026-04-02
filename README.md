@@ -4,13 +4,13 @@ This is a Python script that generates Instagram captions using AI.
 
 ## Features
 
-* Takes user input (niche, tone)
+* Takes user input (topic)
 * Generates captions using AI
 * Saves output to file
 
 ## Example
 
-Input: fitness + motivational  
+Input: fitness
 Output: 5 captions
 
 ## Tech Used
