@@ -1,12 +1,10 @@
 import json
 from openai import OpenAI
-client = OpenAI(
-  base_url="https://openrouter.ai/api/v1",
-  api_key="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",
-)
+import os
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 topic = input("Enter Topic: ")
 prompt = (f"Generate an Instagram post:\\n- A short, upbeat caption about \"{topic}\".\\n" "- Include 5 relevant hashtags.\\nFormat as JSON with keys caption and hashtags.")
-resp = client.chat.completions.create(model="qwen/qwen3.6-plus-preview:free",
+resp = openai.ChatCompletion.create(model="gpt-3.5-turbo",
 messages=[{"role":"user","content":prompt}])
 result = resp.choices[0].message.content
 post = json.loads(result)
